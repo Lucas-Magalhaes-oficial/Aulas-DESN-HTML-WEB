@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Tabelas</title>
+</head>
+<body>
+    
+    <center><h1>ALINHAMENTO DE TABELA E CELULAS</h1></center>
+    <table border="1" align="center">
+        <td>primeira celula</td>
+        <td>segunda celula</td>
+        <td>terceira celula</td>
+
+        <tr>
+            <td align="center">centro</td><!--aqui alinha pro centro-->
+            <td align="left">esquerda</td><!--aqui alinha pra esquerda-->
+            <td align="right">right</td><!--aqui alinha pra direita-->
+        </tr>
+    </table>
+    <br>
+    <br>
+    <!-- o celspacing modfica o tamanho da borda comparado com as celulas da tabela-->
+    <center><h1>USO DO CELSPACING</h1></center>
+    <table border="1" width="80%" cellspacing="30" align="center">
+        <tr>
+            <td width="33%" align="center">Coluna 1</td>
+            <td width="33%" align="center">Coluna 2</td>
+            <td width="34%" align="center">Coluna 3</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <!-- o cellpadding modifica o espaçamento entre conteudo da tabela com a borda-->
+    <center><h1>USO DO CELLPADDING</h1></center>
+    <table border="1" width="80%" cellpadding="24" align="center">
+        <tr>
+            <td width="25%" align="center">aluno</td>
+            <td width="30%" align="center">professor</td>
+            <td width="45%" align="center">Tec.Desenv</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <!--o rowspan mescla linhas, por exemplo, abaixo o código está mesclando 3 linhas da tabela-->
+    <center><h1>USO DO ROWSPAN</h1></center>
+    <table border="3" width="90%" cellpadding="7" align="center">
+        <tr>
+            <td width="16%" rowspan="3">3 linhas</td>
+            <td width="16%">L1 Coluna 2</td>
+            <td width="16%">L1 Coluna 3</td>
+            <td width="17%">L1 Coluna 4</td>
+            <td width="17%">L1 Coluna 5</td>
+        </tr>
+        <tr>
+            <td width="16%">L2 Coluna 2</td>
+            <td width="16%">L2 Coluna 3</td>
+            <td width="17%">L2 Coluna 4</td>
+            <td width="17%">L2 Coluna 5</td>
+        </tr>
+        <tr>
+            <td width="16%">L3 Coluna 2</td>
+            <td width="16%">L3 Coluna 3</td>
+            <td width="17%">L3 Coluna 4</td>
+            <td width="17%">L3 Coluna 5</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <!--o colspan mescla colunas, por exemplo abaixo o código está meclando 3 colunas e 2 duas colunas ao mesmo tempo em uma tabela-->
+    <center><h1>USO DO COLSPAN</h1></center>
+    <table border="3" width="80%" cellpadding="7" align="center">
+        <tr>
+            <td width="24%" colspan="3">Celula com 3 colunas</td>
+            <td width="20%">L1 Coluna 4</td>
+            <td width="20%">L1 Coluna 5</td>
+        </tr>
+        <tr>
+            <td width="16%" bgcolor="green">L2 Coluna 1</td>
+            <td width="16%" bgcolor="blue">L2 Coluna 2</td>
+            <td width="17%" bgcolor="yellow">L2 Coluna 3</td>
+            <td width="24%" colspan="3" bgcolor="red">Celula com 2 colunas</td>
+        </tr>
+    </table>
+
+    <br/>
+    <center>
+        <address>
+                Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+        </address>
+    </center>
+</body>
+</html>
