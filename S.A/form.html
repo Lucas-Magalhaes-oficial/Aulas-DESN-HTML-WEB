@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario de fornecedor S.A</title>
-    <link rel="stylesheet" type="text/css" href="fornecedor.css" media="all" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Atividade 02 - tabelas/formularios</title>
 
     <style type="text/css">
         ul{
@@ -79,52 +79,53 @@
     </ul>
 
     <center>
-        
-        <table cellspacing="0" cellpadding="5" width="500px" height="500px">
-            <tr>
-                <td rowspan="2" class="logo-td"></td>
-                <th rowspan="2" class="titulo-td">Cadastro de Fornecedor</th>
-            </tr>
-            <tr>
-            </tr>
-            <tr>
-                <th>Nome</th>
-                <td><form method="post" action="#lucas"><input type="text" name="nome" value="nome" size="60" maxlength="25"></form></td>
-            </tr>
-            <tr>
-                <th>Email</th>
-                <td><form method="post" action="#lucas"><input type="text" name="email" value="email" size="60" maxlength="25"></form></td>
-            </tr>
-            <tr>
-                <th>CNPJ</th>
-                <td><form method="post" action="#lucas"><input type="text" name="cnpj" value="cnpj" size="60" maxlength="25"></form></td>
-            </tr>
-            <tr>
-                <th>Telefone</th>
-                <td><form method="post" action="#lucas"><input type="text" name="telefone" value="telefone" size="60" maxlength="25"></form></td>
-            </tr>
-            <tr>
-                <th>Logradouro</th>
-                <td><form method="post" action="#lucas"><input type="text" name="logradouro" value="logradouro" size="60" maxlength="25"></form></td>
-            </tr>
-            <tr>
-                <th>Cidade</th>
-                <td><form method="post" action="#lucas"><input type="text" name="cidade" value="cidade" size="60" maxlength="25"></form></td>
-            </tr>
-            <tr>
-                <th>Tipo de produto</th>
-                <td><form method="post" action="#lucas"><input type="text" name="tipo" value="tipo" size="60" maxlength="25"></form></td>
-            </tr>
-            <tr>
-                <td colspan="2"><center><input type="submit" value="Salvar"/><p></p><input type="reset" value="Limpar"/></form></center></td>            
-            </tr>
+        <table border="0" cellpadding="10" cellspacing="0">
+            <form method="post" action="#">
+                <tr>
+                    <th rowspan="2"><img src="image/Mokele.png" alt="Mokele Img" width="100px"></th>
+                    <th colspan="4">Cadastro de Funcionarios</th>
+                </tr>
+                <tr>
+                    <td>Nome:</td>
+                    <td colspan="3"><Input type="text" placeholder="Digite seu nome"></Input></td>
+                </tr>
+                <tr>
+                    <td>Numero:</td>
+                    <td><input type="text" placeholder="Digite seu número" maxlength="15"></td>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="Digite seu Email"></td>
+                </tr>
+                <tr>
+                    <td>CPF:</td>
+                    <td><input type="text" placeholder="Digite seu CPF" maxlength="11"></td>
+                    <td>Data de Nascimento:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Data de admissão:</td>
+                    <td><input type="date"></td>
+                    <td>Cargo:</td>
+                    <td>
+                        <select name="Cargo">
+                            <option value="administrador">administrador</option>
+                            <option value="Analista de Vendas">Analista de Vendas</option>
+                            <option value="Controlador de Estoque">Controlador de Estoque</option>
+                            <option value="Caixa">Caixa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="reset" value="reset"></td>
+                    <td colspan="2" align="center"><input type="submit" value="submit"></td>
+                </tr>
+            </form>
         </table>
-    </center>
-</br>
-    <center>
+
         <address>
-                Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+            Yan Carlos de Oliveira - Estudante - Desenvolvimento de sistemas
         </address>
     </center>
+
+
 </body>
 </html>
