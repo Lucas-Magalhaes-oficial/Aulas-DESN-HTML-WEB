@@ -1,0 +1,19 @@
+h1, h2 {
+    text-align: center;
+}
+
+.poema{
+    color: rgb(69, 69, 253);
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.Borboleta{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    width: 350px;
+    height: 350px;
+
+}
