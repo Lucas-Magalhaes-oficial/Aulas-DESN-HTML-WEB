@@ -3,17 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>função js</title>
-    <script type="text/javascript" src="jquery.js"></script>
-    <script>
-        function minhaFuncao() {
-            alert("Alo!");
-            alert("Aonde você está?");
-}
-    </script>
+    <title>troca de imagem com Mouse IN/OUT, agora com js externo</title>
+    <script src="evento.js"></script>
 </head>
 <body>
-    <input type="button" onclick="minhaFuncao ()" value="Botão 1"/>
+    <img alt="cat" src="cat1.jpg" name="imagem"
+    onmouseover="mouseOver()"
+    onmouseout="mouseOut()"/>
     <br>
     <center>
         <address>
@@ -22,17 +18,3 @@
     </center>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
